@@ -9,12 +9,11 @@ title = "cyberwirezsec"
 [params]
   user = "cyberwirezsec"
   hostname = "github.io"
-  description = "we crack it we own it"
   footerHtml = '© 2026, Built with <a href="https://gohugo.io">Hugo</a> and <a href="https://github.com/LordMathis/hugo-theme-nightfall">Nightfall</a> theme'
 
 [params.author]
   name = "cyberwirezsec"
-  email = "cyberwirez.sec@gmail.com"
+  email = ""
 
 [[params.social]]
   name = "github"
@@ -26,9 +25,9 @@ title = "cyberwirezsec"
 
 [menu]
   [[menu.header]]
-    name = "posts"
+    name = "blogs"
     weight = 0
-    url = "/posts"
+    url = "/blogs"
   [[menu.header]]
     name = "about"
     weight = 1
