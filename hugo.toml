@@ -1,3 +1,36 @@
 [module]
 [[module.imports]]
   path = 'github.com/LordMathis/hugo-theme-nightfall'
+
+baseURL = "https://cyberwirezsec.github.io/"
+languageCode = "en-us"
+title = "cyberwirezsec"
+
+[params]
+  user = "cyberwirezsec"        # shown in the "user ~ $" prompt
+  hostname = "github.io"        # shown after the @
+  description = "Your tagline here"
+
+  # Footer text
+  footerHtml = '© 2026, Built with <a href="https://gohugo.io">Hugo</a> and <a href="https://github.com/LordMathis/hugo-theme-nightfall">Nightfall</a> theme'
+
+[params.author]
+  name = "Your Name"
+  email = "you@example.com"
+
+# Social links (all optional)
+[params.social]
+  github = "cyberwirezsec"
+  twitter = "yourhandle"
+  linkedin = "yourprofile"
+
+# Navigation menu
+[menu]
+  [[menu.header]]
+    name = "posts"
+    weight = 0
+    url = "/posts"
+  [[menu.header]]
+    name = "about"
+    weight = 1
+    url = "/about"
